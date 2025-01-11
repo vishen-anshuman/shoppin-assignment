@@ -47,9 +47,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <mainClass>com.repyute.RestApplication</mainClass>
-                </configuration>
                 <executions>
                     <execution>
                         <goals>
@@ -60,6 +57,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>
